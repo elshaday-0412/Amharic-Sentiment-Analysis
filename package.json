@@ -1,0 +1,52 @@
+{
+<<<<<<< HEAD
+  "name": "amharic-sentiment-analysis",
+  "version": "1.0.0",
+  "description": "A sentiment analysis application for Amharic text using PyTorch and React.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+=======
+  "name": "amharic-sentiment-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start"
+>>>>>>> 1ccb732e (Initial commit from new folder)
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+<<<<<<< HEAD
+}
+=======
+}
+>>>>>>> 1ccb732e (Initial commit from new folder)

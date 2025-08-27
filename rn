@@ -1,0 +1,3 @@
+cd C:\Users\ezraa\Desktop\summercamp\amharic-sentiment-analysis\frontend
+powershell -ExecutionPolicy Bypass
+npm start

@@ -62,7 +62,8 @@ amharic-sentiment-analysis
 
 ## Frontend
 
-- Built with **React**.  
+- Built with **React**.
+- Additional Features with **HTML**, **CSS** & **JS**
 - Handles user input and displays predictions.  
 - Key files:
   - `public/index.html`  
@@ -112,3 +113,4 @@ python validate.py
 Shows Accuracy, Precision, Recall & F1 Score.
 ###License
 MIT License
+

@@ -111,6 +111,9 @@ npm start
 python validate.py
 ```
 Shows Accuracy, Precision, Recall & F1 Score.
+---
+
 ###License
 MIT License
+
 

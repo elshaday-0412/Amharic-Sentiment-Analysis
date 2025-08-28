@@ -1,5 +1,25 @@
 # Amharic Sentiment Analysis Project
-This project implements a sentiment analysis application for Amharic text using a PyTorch-based backend and a React frontend. The application allows users to input Amharic text and receive sentiment predictions.
+
+This project implements a sentiment analysis application for Amharic text using a **PyTorch-based backend** and a **React frontend**. The application allows users to input Amharic text and receive sentiment predictions categorized as **Positive**, **Neutral**, or **Negative**.  
+
+It can be used for analyzing social media comments, reviews, or any Amharic text corpus.  
+
+---
+
+## Table of Contents
+
+1. [Project Structure](#project-structure)  
+2. [Backend](#backend)  
+3. [Frontend](#frontend)  
+4. [Dataset](#dataset)  
+5. [Model](#model)  
+6. [Setup Instructions](#setup-instructions)  
+7. [Usage](#usage)  
+8. [Validation](#validation)  
+9. [Contributing](#contributing)  
+10. [License](#license)  
+
+---
 
 ## Project Structure
 
@@ -26,53 +46,69 @@ amharic-sentiment-analysis
 │   └── README.md
 └── README.md
 ```
+---
+
 ## Backend
 
-The backend is built using Flask and PyTorch. It includes:
+- Built with **Flask** and **PyTorch**.  
+- Handles preprocessing, tokenization, and model inference.  
+- Key files:
+  - `app.py`: Flask API endpoints  
+  - `model/sentiment_model.py`: PyTorch LSTM model  
+  - `utils/preprocess.py`: Preprocessing functions  
+  - `requirements.txt`: Python dependencies  
 
-- **app.py**: The main entry point for the backend application, setting up routes for sentiment analysis.
-- **model/sentiment_model.py**: The implementation of the sentiment analysis model.
-- **utils/preprocess.py**: Utility functions for preprocessing text data.
-- **requirements.txt**: Lists the required Python dependencies.
+---
 
 ## Frontend
 
-The frontend is built using React. It includes:
+- Built with **React**.  
+- Handles user input and displays predictions.  
+- Key files:
+  - `public/index.html`  
+  - `src/App.js`  
+  - `src/components/SentimentForm.js`  
+  - `src/styles/App.css`  
+  - `package.json`  
 
-- **public/index.html**: The main HTML file for the React application.
-- **src/App.js**: The main component of the React application.
-- **src/components/SentimentForm.js**: A form component for user input.
-- **src/styles/App.css**: CSS styles for the frontend application.
-- **package.json**: Configuration file for npm.
+---
 
->>>>>>> 1ccb732e (Initial commit from new folder)
+## Dataset
+
+- `data/final.csv` contains Amharic sentences labeled `positive`, `neutral`, `negative`.  
+- Used for training and validation.  
+
+---
+
+## Model
+
+- Bi-directional LSTM, 2 layers, embedding_dim=256, hidden_dim=128  
+- Outputs 3-class sentiment prediction  
+- Trained for 100 epochs using Adam and weighted cross-entropy loss  
+- Saved models are in `backend/saved_models/`  
+
+---
+
 ## Setup Instructions
 
 ### Backend
 
-1. Navigate to the `backend` directory.
-2. Install the required dependencies using:
-   ```
-   pip install -r requirements.txt
-   ```
-3. Run the backend application:
-   ```
-   python app.py
-   ```
+```bash
+cd backend
+pip install -r requirements.txt
+python app.py
+```
+###Frontend
+```bash
+cd frontend
+npm install
+npm start
 
-### Frontend
-
-1. Navigate to the `frontend` directory.
-2. Install the required dependencies using:
-   ```
-   npm install
-   ```
-3. Start the frontend application:
-   ```
-   npm start
-   ```
-
-## Usage
-
-Once both the backend and frontend are running, you can access the application in your web browser. Input Amharic text into the form and submit it to receive sentiment predictions.
-
+```
+###Validation
+```bash
+python validate.py
+```
+Shows Accuracy, Precision, Recall & F1 Score.
+###License
+MIT License

@@ -6,21 +6,6 @@ It can be used for analyzing social media comments, reviews, or any Amharic text
 
 ---
 
-## Table of Contents
-
-1. [Project Structure](#project-structure)  
-2. [Backend](#backend)  
-3. [Frontend](#frontend)  
-4. [Dataset](#dataset)  
-5. [Model](#model)  
-6. [Setup Instructions](#setup-instructions)  
-7. [Usage](#usage)  
-8. [Validation](#validation)  
-9. [Contributing](#contributing)  
-10. [License](#license)  
-
----
-
 ## Project Structure
 
 ```
@@ -33,6 +18,9 @@ amharic-sentiment-analysis
 │   │   └── preprocess.py
 │   ├── requirements.txt
 │   └── README.md
+|   └── train.py
+|   └── validate.py
+|   └── app.py
 ├── frontend
 │   ├── public
 │   │   └── index.html
@@ -99,19 +87,22 @@ cd backend
 pip install -r requirements.txt
 python app.py
 ```
-###Frontend
+---
+### Frontend
 ```bash
 cd frontend
 npm install
 npm start
 
 ```
-###Validation
+---
+### Validation
 ```bash
 python validate.py
 ```
--Shows Accuracy, Precision, Recall & F1 Score.
 ---
+## License
+MIT License
 
 
 

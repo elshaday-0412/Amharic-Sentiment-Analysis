@@ -1,0 +1,3 @@
+cd C:\Users\ezraa\Desktop\summercamp\ASA\frontend
+powershell -ExecutionPolicy Bypass
+npm start

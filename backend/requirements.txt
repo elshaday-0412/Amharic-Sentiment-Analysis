@@ -1,8 +1,0 @@
-Flask
-flask-cors
-torch
-torchvision
-numpy
-pandas
-scikit-learn
-requests

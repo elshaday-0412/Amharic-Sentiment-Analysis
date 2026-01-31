@@ -1,0 +1,143 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title>Amharic Sentiment Analyzer</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <noscript><link rel="stylesheet" href="{{ url_for('static', filename='css/noscript.css') }}"></noscript>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/fontawesome-all.min.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-Q8jL2HThQGwR4KTSGojrEN0vS9rZ3zV+yO4oYcFhYk7UpR/wP6xHdcT9lX1fS2+NNi1lGxhX5rU1Sh9f2czb1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="landing is-preload">
+    <div id="page-wrapper">
+        <header id="header" class="alt">
+    <h1><a href="{{ url_for('index') }}">Amharic Sentiment Analyzer</a></h1>
+    <nav id="nav">
+        <ul>
+            <li class="special">
+                <a href="#menu" class="menuToggle"><span>Menu</span></a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Place menu outside header -->
+<div id="menu">
+    <ul>
+        <li><a href="{{ url_for('index') }}">Home</a></li>
+        <li><a href="{{ url_for('predictor_page') }}">Predictions</a></li>
+        <li><a href="#two">About</a></li>
+        <li><a href="#footer">Contact</a></li>
+    </ul>
+</div>
+
+
+    <!-- Banner -->
+    <section id="banner">
+        <div class="inner">
+            <h2>Amharic Sentiment Analysis</h2>
+            <p>Your Go To<br />
+               Sentiment Analyzer<br />
+               for any purpose.</p>
+            <ul class="actions special">
+                <li><a href="{{ url_for('predictor_page') }}" class="button primary">Get Started</a></li>
+            </ul>
+        </div>
+        <a href="#one" class="more scrolly">Learn More</a>
+    </section>
+
+    <!-- One: Why Amharic Sentiment -->
+    <section id="one" class="wrapper style1 special">
+        <div class="inner">
+            <header class="major">
+                <h2>Why Amharic Sentiment?</h2>
+                <p>Amharic is underrepresented in NLP. <br/>
+                   Building an ASA system fills a gap for AI tools in Ethiopia and among Amharic speakers.</p>
+            </header>
+        </div>
+    </section>
+
+    <!-- Two: Spotlight -->
+    <section id="two" class="wrapper alt style2">
+        <section class="spotlight">
+            <div class="image"><img src="{{ url_for('static', filename='images/pic01.jpg') }}" alt="" /></div>
+            <div class="content">
+                <h2>Social Media <br />Monitoring</h2>
+                <p>Understanding public opinion on trending topics or events.</p>
+            </div>
+        </section>
+        <section class="spotlight">
+            <div class="image"><img src="{{ url_for('static', filename='images/pic02.jpg') }}" alt="" /></div>
+            <div class="content">
+                <h2>Customer Feedback <br />Analysis</h2>
+                <p>Gauging satisfaction from customer reviews and comments.</p>
+            </div>
+        </section>
+        <section class="spotlight">
+            <div class="image"><img src="{{ url_for('static', filename='images/pic03.jpg') }}" alt="" /></div>
+            <div class="content">
+                <h2>Public Opinion <br />Analysis</h2>
+                <p>Tracking sentiment around policies, brands, or news.</p>
+            </div>
+        </section>
+    </section>
+
+    <!-- Three: Frameworks -->
+    <section id="three" class="wrapper style3 special">
+        <div class="inner">
+            <header class="major">
+                <h2>Frameworks and Platforms</h2>
+                <p>We used multiple frameworks and stepped training on our model<br/>
+                   to ensure accurate predictions and accessible site.</p>
+            </header>
+            <ul class="features">
+                <li><h3>Python</h3><p>Core programming language for all logic.</p></li>
+                <li><h3>PyTorch</h3><p>Deep learning framework for model building and training.</p></li>
+                <li><h3>Flask</h3><p>Backend web framework for API services.</p></li>
+                <li><h3>Pandas</h3><p>Data analysis, manipulation, and processing.</p></li>
+                <li><h3>Torchtext & NLP + BERT</h3><p>Text preprocessing, vocabulary building, and more.</p></li>
+                <li><h3>HTML, CSS & JS</h3><p>Frontend UI/UX for ease of access and aesthetics.</p></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section id="cta" class="wrapper style4">
+        <div class="inner">
+            <header>
+                <h2>Thank You!</h2>
+                <p>Click the button to get started and explore the predictor.</p>
+            </header>
+            <ul class="actions stacked">
+                <li><a href="{{ url_for('predictor_page') }}" class="button fit primary">Get Started</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <ul class="icons">
+            <li><a href="https://t.me/egotisticnftl" class="icon brands fa-telegram" target="_blank"><span class="label">Telegram</span></a></li>
+            <li><a href="https://github.com/axel777-arch" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+            <li><a href="https://www.instagram.com/a_xel.cce" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+            <li><a href="https://www.snapchat.com/ezra245508" class="icon brands fa-snapchat" target="_blank"><span class="label">Snapchat</span></a></li>
+            <li><a href="mailto:ezraambaw@gmail.com" class="icon solid fa-envelope"><span class="label" target="_blank">Email</span></a></li>
+        </ul>
+    </footer>
+
+</div>
+
+<!-- Scripts -->
+<script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/jquery.scrolly.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/jquery.scrollex.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/browser.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/breakpoints.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/util.js') }}"></script>
+<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+<script src="{{ url_for('static', filename='js/app.js') }}"></script>
+
+
+</body>
+</html>

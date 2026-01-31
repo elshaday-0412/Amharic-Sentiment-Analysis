@@ -1,0 +1,101 @@
+sentence,label
+በአትክልት ቦታዬ ብዙ አበቦች አደጉ።,Positive
+የእኔ መኪና ተበላሸ።,Negative
+ዛሬ ሰኞ ነው።,Neutral
+በሥራ ላይ ተባርሬአለሁ።,Negative
+እኔ በራሴ ተኮራሁ።,Positive
+ቤታችን ሶስት ክፍሎች አሉት።,Neutral
+እኔ ልጅ ታምሟል።,Negative
+የእኔ ቡድን ጨዋታውን አሸነፈ።,Positive
+የእኔ ሀሳብ ተቀባል።,Negative
+እኔ በተማ ውስጥ እኖራለሁ።,Neutral
+የእኔ አስተማሪ በጣም ደግ ነው።,Positive
+በጣም ተጨንቄአለሁ።,Negative
+በፓርቲው ማንም አልመጣም።,Negative
+የእኔ ልጅ በትምህርት ቤት ይማራል።,Neutral
+በዓሉ በጣም አስደሳች ነበር።,Positive
+የእኔ ሀሳቦች ተበላሹ።,Negative
+ኔ በየቀኑ መጽሐፍ አነባለሁ።,Neutral
+በሙዚቃው በጣም ተደስቻለሁ።,Positive
+የእኔ ፕሮጀክት ተችቷል።,Negative
+የአየር ሁኔታ ዛሬ መጠነኛ ነው።,Neutral
+አዲስ መጽሐፍ አገኘሁ።,Positive
+የእኔ የቤት እንስሳ ተጠፋ።,Negative
+እኔ በተራሮች አቅራቢያ እኖራለሁ።,Neutral
+የእኔ ህልም እውን ሆነ።,Positive
+በጣም ተናደድሁ።,Negative
+እኔ በየቀኑ ቡና እጠጣለሁ።,Neutral
+ጆቼ በትምህርታቸው ጥሩ ውጤት አስመዝግበዋል።,Positive
+የእኔ ልጅ ተጠፋ።,Negative
+ቤታችን በምቾት ተሞልቷል።,Positive
+የእኔ ሥራ በጣም ከባድ ነው።,Negative
+እኔ በአውቶቡስ ወደ ሥራ እሄዳለሁ።,Neutral
+አዲስ መኪና ገዛሁ።,Positive
+የእኔ ግንኙነት ተበላሸ።,Negative
+የእኔ ቤት ሁለት ፎቅ አለው።,Neutral
+ተማሪዎች በፈተናው ተሳክተዋል።,Positive
+በጣም ተራማድሁ።,Negative
+ኔ በየሳምንቱ ገበያ እሄዳለሁ።,Neutral
+የእኔ ጓደኛ በጣም ጥሩ ሰው ነው።,Positive
+የእኔ ፕሮጀክት በጣም አድናቆት አግኝቷል።,Positive
+የእኔ ሥራ ተሰናከለ።,Negative
+ዛሬ አምስት ሰአት ነው።,Neutral
+የእኔ ልጅ የመጀመሪያ እርምጃውን ወሰደ።,Positive
+የእኔ ኮምፒውተር ተበላሸ።,Negative
+እኔ በአትክልት ውስጥ እሰራለሁ።,Neutral
+ሁሉም ሰው በፓርቲው ተደሰተ።,Positive
+በጣም ተጨንቄአለሁ።,Negative
+ኔ በቤተ መጻሕፍት ውስጥ እንተኛለሁ።,Neutral
+አዲስ ተሰጥኦ ተገኘሁ።,Positive
+የእኔ ተስፋ ተሰበረ።,Negative
+የእኔ ቤተሰብ በአዲስ ከተማ ይኖራል።,Neutral
+ዛሬ ፀሐይ በሚያምር ሁኔታ እየበራች ነው።,Positive
+የእኔ ልጅ ታምሟል።,Negative
+እኔ በየቀኑ ውሃ እጠጣለሁ።,Neutral
+የልደት ቀኔ በጣም የማይረሳ ነበር።,Positive
+የእኔ ገንዘብ ጠፋ።,Negative
+እኔ በትምህርት ቤት እማራለሁ።,Neutral
+ናቴ ጤናዋ መልካም ነው።,Positive
+የእኔ እህት ታምሟል።,Negative
+የእኔ ቤት በመንገድ አጠገብ ነው።,Neutral
+አዲስ ሥራ አገኘሁ።,Positive
+የእኔ ተስፋ ተሰበረ።,Negative
+እኔ በየቀኑ ምግብ እዘጋጃለሁ።,Neutral
+ጓደኞቼ ሁልጊዜ ይደግፉኛል።,Positive
+የእኔ የቤት እንስሳ ሞተ።,Negative
+እኔ በአትክልት ቦታ እሄዳለሁ።,Neutral
+በስፖርት ውድድር የመጀመሪያ ቦታ አገኘሁ።,Positive
+ኔ ጓደኛ ከእኔ ጋር ተከራከረ።,Negative
+የእኔ ቤተሰብ በየቀኑ እራት ይበላል።,Neutral
+የእኔ የቤት እንስሳ በጣም ተጫዋች ነው።,Positive
+በጣም ተበሳጨሁ።,Negative
+እኔ በቤት ውስጥ እሰራለሁ።,Neutral
+በአዲስ ከተማ መኖር አስደሳች ነው።,Positive
+የእኔ ሥራ በጣም አስቸግረኝ ነው።,Negative
+እኔ በየቀኑ የእግር ጉዞ እሄዳለሁ።,Neutral
+የእኔ ጎረቤቶች በጣም ወዳጃዊ ናቸው።,Positive
+በጣም ተጨናቂ ነኝ።,Negative
+እኔ በቤተ መጻሕፍት ውስጥ እማራለሁ።,Neutral
+አዲስ ቋንቋ መማር እወዳለሁ።,Positive
+የእኔ ግብዣ ተሰረዘ።,Negative
+የእኔ ቤተሰብ በአዲስ አመት ይሰበሰባል።,Neutral
+የእኔ ቤተሰብ በየቀኑ አብሮ ይስቃል።,Positive
+የእኔ ተስፋ ተሰበረ።,Negative
+እኔ በየቀኑ የቤት ሥራ እሰራለሁ።,Neutral
+በተፈጥሮ ውስጥ መሄድ ያስደስተኛል።,Positive
+የእኔ ሥራ ተሰናከለ።,Negative
+እኔ በቤተሰብ እራት እገኛለሁ።,Neutral
+የእኔ ልጆች እርስ በርስ ይዋደዳሉ።,Positive
+በዝናብ ውስጥ ተጠማሁ።,Negative
+እኔ በየቀኑ ቲቪ እመለከታለሁ።,Neutral
+ዛሬ በጣም አስደሳች ቀን ነው።,Positive
+በጣም ተራመድሁ።,Negative
+እኔ በአካባቢው ፓርክ እሮጣለሁ።,Neutral
+ቤተሰቤ በጣም ደስተኛ ነው።,Positive
+የእኔ ቤተሰብ አባል ታመመ።,Negative
+እኔ በየቀኑ ሙዚቃ እሰማለሁ።,Neutral
+እኔ በሥራዬ ላይ ትልቅ ስኬት አገኘሁ።,Positive
+በጣም ተበዳሚ ነኝ።,Negative
+እኔ በቤተ ክርስቲያን እገኛለሁ።,Neutral
+በሥራ ላይ ተሸልሜአለሁ።,Positive
+የእኔ ሀሳቦች ተበላሹ።,Negative
